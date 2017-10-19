@@ -10,7 +10,7 @@ import math
 
 while True:
     
-    print(\n\n' + '工伤待遇计算器\n\n'.rjust(17))
+    print('\n\n' + '工伤待遇计算器\n\n'.rjust(17))
     Deng_Ji = int(input("请输入伤残等级（数字）：\n>  "))
     print('是否解除劳动合同？')
     SiFou_JieChu = int(input('解除请按1，不解除请按2：\n>  '))
