@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# 停工留薪期实发工资计算器
-# 实际工作中这是一个比较麻烦的计算项目，因为算出了停工留薪期应发工资，还要靠这个计算已实际发放工资，再计算两者的差额
-# 因此实发工资由以下程序单独计算
-# 使用前需要安装business_calendar模块：https://pypi.python.org/pypi/business_calendar/
+""" 停工留薪期实发工资计算器
+ 实际工作中这是一个比较麻烦的计算项目，因为算出了停工留薪期应发工资，还要靠这个计算已实际发放工资，再计算两者的差额
+ 因此实发工资由以下程序单独计算
+ 使用前需要安装business_calendar模块：https://pypi.python.org/pypi/business_calendar/"""
 
 import datetime
 from business_calendar import Calendar, MO, TU, WE, TH, FR
